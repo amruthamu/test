@@ -12,8 +12,7 @@ appBar: AppBar(
 ),
        body:  Center(
          child: Column(mainAxisSize: MainAxisSize.min ,
-           children: [
-             const Text('First Page',style: TextStyle(fontSize: 50
+           children: [const Text('First Page',style: TextStyle(fontSize: 50
              ),),
              TextButton(onPressed: (){
                Navigator.of(context).push(MaterialPageRoute(
